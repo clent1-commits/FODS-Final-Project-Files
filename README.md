@@ -102,6 +102,8 @@ Database Information
 - Password: 3MtUcBcFDG
 - Host: sql12.freesqldatabase.com
 
+https://www.phpmyadmin.co/index.php
+
 Backup File
 - File Name: sql12749143.sql
 - Location: Included in the project folder or Github link I provided.
