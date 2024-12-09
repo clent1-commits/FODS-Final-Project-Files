@@ -57,28 +57,10 @@ Prerequisites
 Database Configuration:
 Database Configuration in phpMyAdmin
 - Open phpMyAdmin in your browser.
-- Create a database named sql12749143 or used my database, just log in using the credentials I provided.
+- Log in using the database credentials I provided.
 
-Import the provided sql12749143.sql file:(If you create a database)
-- Go to the Import tab in phpMyAdmin.
-- Choose the sql12749143.sql file.
-- Click Go. Application Configuration
-- Open the project in NetBeans.
-- Update the DBConnection class with your phpMyAdmin database
 
-credentials:
-Update the DBConnection class with your or mine database credentials:
-public class DBConnection {
-public static Connection connect() throws SQLException {
-String url = "jdbc:mysql://localhost:3306/sql12749143"; // Update
-with your database name
-String user = "your_username"; // Replace the database
-username
-String password = "your_password"; // Replacethe database
-password
-return DriverManager.getConnection(url, user, password);
-}
-}
+
 Run the Application
 1. Download the LoginApp.java. Go to NetBeans app, go to File - Open project and choose loginApp. Run the LoginApp.java file
 in NetBeans.
@@ -94,25 +76,25 @@ Id INT Primary key,Auto
 Increment
 Name VARCHAR (50) NOT NULL, UNIQUE
 Password VARCHAR(255) NOT NULL
-Email VARCHAR (100) NOT NULL, UNIQUE
+Email VARCHAR (255) NOT NULL, UNIQUE
 
 Database Information
-- Database Name: sql12749143
-- Username: sql12749143
-- Password: 3MtUcBcFDG
+- Database Name: sql12750783
+- Username: sql12750783
+- Password: VsLvUutl9l
 - Host: sql12.freesqldatabase.com
 
 https://www.phpmyadmin.co/index.php
 
 Backup File
-- File Name: sql12749143.sql
+- File Name: sql12_freesqldatabase_com.sql
 - Location: Included in the project folder or Github link I provided.
 
 Import Instructions
 - Open phpMyAdmin.
 -  Create a database namedsql12749143.
   
-Import the sql12749143.sql file:
+Import the sql12_freesqldatabase_com.sql file:
 - Go to the Import tab.
 - Select the file and click Go.
 
